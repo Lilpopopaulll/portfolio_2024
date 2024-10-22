@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap');
+body, html {
+    overflow: hidden; /* Désactive le défilement manuel */
+}
+
+.home-page {
+    font-family: 'Orbitron', sans-serif;
+    width: 200vw; /* Deux fois la largeur de l'écran */
+    height: 100vh; /* La hauteur de la page entière */
+    background-image: url("../assets/images/bg.png");
+    background-size: 200% 100%; /* Deux fois la largeur et toute la hauteur */
+    background-repeat: no-repeat;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    scrollbar-width: none; /* Firefox */
+}
+
+.home-page::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, et Edge */
+}
+
+.page-1 {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-nav-bar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin : 1vw 5vw;
+}
+
+.home-top-bar {
+    width: 60vw;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.52);
+}
+
+.home-nav-bar-title {
+    font-size: 1.2vw;
+}
